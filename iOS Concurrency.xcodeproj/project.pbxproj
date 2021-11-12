@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		BB805DE5273DC78D008BEEAC /* iOS_ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DE4273DC78D008BEEAC /* iOS_ConcurrencyApp.swift */; };
-		BB805DE7273DC78D008BEEAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DE6273DC78D008BEEAC /* ContentView.swift */; };
+		BB805DE7273DC78D008BEEAC /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DE6273DC78D008BEEAC /* UsersListView.swift */; };
 		BB805DE9273DC78E008BEEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB805DE8273DC78E008BEEAC /* Assets.xcassets */; };
 		BB805DEC273DC78E008BEEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB805DEB273DC78E008BEEAC /* Preview Assets.xcassets */; };
+		BB805DF5273DCA8B008BEEAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DF4273DCA8B008BEEAC /* User.swift */; };
+		BB805DF7273DCB2B008BEEAC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DF6273DCB2B008BEEAC /* Post.swift */; };
+		BB805DFA273DCE80008BEEAC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DF9273DCE80008BEEAC /* APIService.swift */; };
+		BB805DFE273DD9D9008BEEAC /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805DFD273DD9D9008BEEAC /* UsersListViewModel.swift */; };
+		BB805E00273DE483008BEEAC /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = BB805DFF273DE483008BEEAC /* users.json */; };
+		BB805E02273DE4AC008BEEAC /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = BB805E01273DE4AC008BEEAC /* posts.json */; };
+		BB805E05273DE506008BEEAC /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805E04273DE506008BEEAC /* Bundle+Extension.swift */; };
+		BB805E07273DE52D008BEEAC /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805E06273DE52D008BEEAC /* MockData.swift */; };
+		BB805E09273DE862008BEEAC /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805E08273DE862008BEEAC /* PostsListViewModel.swift */; };
+		BB805E0B273DE98F008BEEAC /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB805E0A273DE98F008BEEAC /* PostsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB805DE1273DC78D008BEEAC /* iOS Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB805DE4273DC78D008BEEAC /* iOS_ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ConcurrencyApp.swift; sourceTree = "<group>"; };
-		BB805DE6273DC78D008BEEAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB805DE6273DC78D008BEEAC /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		BB805DE8273DC78E008BEEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB805DEB273DC78E008BEEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB805DF2273DC7FF008BEEAC /* iOS-Concurrency-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-Concurrency-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BB805DF4273DCA8B008BEEAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BB805DF6273DCB2B008BEEAC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BB805DF9273DCE80008BEEAC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BB805DFD273DD9D9008BEEAC /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		BB805DFF273DE483008BEEAC /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		BB805E01273DE4AC008BEEAC /* posts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		BB805E04273DE506008BEEAC /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		BB805E06273DE52D008BEEAC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BB805E08273DE862008BEEAC /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		BB805E0A273DE98F008BEEAC /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,13 @@
 		BB805DE3273DC78D008BEEAC /* iOS Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				BB805DF3273DCA7A008BEEAC /* Models */,
+				BB805DFB273DD99B008BEEAC /* Views */,
+				BB805DFC273DD9B7008BEEAC /* ViewModels */,
+				BB805DF2273DC7FF008BEEAC /* iOS-Concurrency-Info.plist */,
+				BB805E03273DE4E8008BEEAC /* Extensions */,
+				BB805DF8273DCE68008BEEAC /* Services */,
 				BB805DE4273DC78D008BEEAC /* iOS_ConcurrencyApp.swift */,
-				BB805DE6273DC78D008BEEAC /* ContentView.swift */,
 				BB805DE8273DC78E008BEEAC /* Assets.xcassets */,
 				BB805DEA273DC78E008BEEAC /* Preview Content */,
 			);
@@ -63,8 +89,54 @@
 			isa = PBXGroup;
 			children = (
 				BB805DEB273DC78E008BEEAC /* Preview Assets.xcassets */,
+				BB805DFF273DE483008BEEAC /* users.json */,
+				BB805E01273DE4AC008BEEAC /* posts.json */,
+				BB805E06273DE52D008BEEAC /* MockData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB805DF3273DCA7A008BEEAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB805DF4273DCA8B008BEEAC /* User.swift */,
+				BB805DF6273DCB2B008BEEAC /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB805DF8273DCE68008BEEAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB805DF9273DCE80008BEEAC /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB805DFB273DD99B008BEEAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB805DE6273DC78D008BEEAC /* UsersListView.swift */,
+				BB805E0A273DE98F008BEEAC /* PostsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB805DFC273DD9B7008BEEAC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB805DFD273DD9D9008BEEAC /* UsersListViewModel.swift */,
+				BB805E08273DE862008BEEAC /* PostsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB805E03273DE4E8008BEEAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB805E04273DE506008BEEAC /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB805E00273DE483008BEEAC /* users.json in Resources */,
 				BB805DEC273DC78E008BEEAC /* Preview Assets.xcassets in Resources */,
 				BB805DE9273DC78E008BEEAC /* Assets.xcassets in Resources */,
+				BB805E02273DE4AC008BEEAC /* posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB805DE7273DC78D008BEEAC /* ContentView.swift in Sources */,
+				BB805DE7273DC78D008BEEAC /* UsersListView.swift in Sources */,
+				BB805E05273DE506008BEEAC /* Bundle+Extension.swift in Sources */,
+				BB805DFE273DD9D9008BEEAC /* UsersListViewModel.swift in Sources */,
+				BB805E09273DE862008BEEAC /* PostsListViewModel.swift in Sources */,
+				BB805DFA273DCE80008BEEAC /* APIService.swift in Sources */,
 				BB805DE5273DC78D008BEEAC /* iOS_ConcurrencyApp.swift in Sources */,
+				BB805E07273DE52D008BEEAC /* MockData.swift in Sources */,
+				BB805DF5273DCA8B008BEEAC /* User.swift in Sources */,
+				BB805E0B273DE98F008BEEAC /* PostsListView.swift in Sources */,
+				BB805DF7273DCB2B008BEEAC /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +354,9 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Concurrency-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +383,9 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Concurrency-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
